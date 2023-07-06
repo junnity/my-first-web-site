@@ -4,25 +4,69 @@
   <head>
     <title>스즈메의 문단속 - 나무위키</title>
     <meta charset="utf-8">
-  <head/>
 
+  <head/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+    a{
+
+      text-decoration: none;
+    }
+    h1{
+      font-size: 45px;
+      text-align: center;
+      font-family: 'Diphylleia', serif;
+      background-image: url('milky way.jpg');
+      background-size: cover;
+      padding: 30px;
+    }
+    body{
+      margin: 0;
+    }
+    .list{
+      text-align: center;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      margin-bottom: 30px;
+    }
+
+    #gridp{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 500px;
+    }
+
+
+
+  </style>
 
   <body>
 
-    <h1><a href="no1.html">스즈메의 문단속</a></h1>
+    <h1><a href="no1.html"><font color = "white">스즈메의 문단속</font></a></h1>
 
-    <ol>
-      <li><a href="1.html">개요</a></li>
-      <li><a href="2.html">개봉전정보</a></li>
-      <li><a href="3.html">포스터</a></li>
-    </ol>
+    <div class="list">
+      <ol>
+        <li><a href="1.html">개요</a></li>
+        <li><a href="2.html">개봉전정보</a></li>
+        <li><a href="3.html">포스터</a></li>
+      </ol>
+    </div>
 
+    <div id="gridp">
 
-    <img src="suzume poster.jfif" width="30%">
+      <div id="poster"><center><img src="suzume poster.jfif" height=500px ></center></div>
 
-    <h3 style="margin-top:40px;">개요</h3>
-    <h4>문의 건너편에는, 모든 시간이 있었다.<br>
-      扉の向こうには、すべての時間があった。</h4>
+      <div id="개요">
+        <h3 style="margin-top:40px;">개요</h3>
+        <h4>문의 건너편에는, 모든 시간이 있었다.<br>
+            扉の向こうには、すべての時間があった。</h4>
+      </div>
+
+    </div>
 
       <p>
         <iframe width="560" height="315"
